@@ -1,0 +1,68 @@
+.custom-bg-blue {
+    background-color: rgb(8, 8, 61);
+  }
+  .custom-bg-red {
+    background-color: red;
+  }
+  .custom-bg-pink {
+    background-color: pink;
+  }
+  .custom-mywidth{
+    width: 75%;
+  }
+  .headinfor-container-main{ 
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headinfor-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 70%;
+    
+  }
+  .logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .myadress{
+    color: rgb(24, 173, 178);
+    font-size: 15px;
+  }
+  .myadress-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .big-container{
+    margin-top: 2%;
+  }
+  .ds-container{
+        margin-left: 7%;
+  }
+  .line-container {
+    position: relative;
+    display: inline;
+  }
+  
+  .same-line{
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .empty-row {
+    height: 50px; /* Adjust the desired height */
+    visibility: hidden; /* Alternatively, use display: none; to completely hide the row */
+  }
+
+  .narrow-row .narrow-cell {
+    width: 5px; /* Adjust the desired width */
+  }
+
